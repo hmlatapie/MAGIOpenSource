@@ -138,6 +138,7 @@ def main(argv):
     walker = ParseTreeWalker()
     walker.walk(printer,tree)
     #nx.write_graphml_lxml(g,"test.graphml")
+    nx.write_graphml(g,"myTestGraph.graphml")
 
 if __name__ == '__main__':
     main(sys.argv)
