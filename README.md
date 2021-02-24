@@ -4,7 +4,7 @@ Dependancies:
 ```
 apt install perl
 pip3 install networkx
-pip3 install install antlr4-python3-runtime==4.7.2
+pip3 install antlr4-python3-runtime==4.7.2
 ```
 
 To run test perl script on test text files and create a graphml:
