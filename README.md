@@ -24,7 +24,7 @@ Known issues for on Mac:
 
 1. Folder permission denied.
 ```
-chmod -R 777 MAGIOOpenSource/
+chmod -R 777 MAGIOpenSource/
 ```
 2. Anltr4 not being recognized.
 ```
