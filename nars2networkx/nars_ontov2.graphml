@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="(*,{#1},{#2})" />
+    <node id="in_aligned" />
+    <node id="{#2}" />
+    <node id="[rectangle]" />
+    <node id="shelf" />
+    <node id="{#1}" />
+    <node id="product" />
+    <node id="(&amp;&amp;,&lt;(*,{#1},{#2})--&gt;in_aligned&gt;,&lt;{#2}--&gt;[rectangle]&gt;)" />
+    <node id="(&amp;&amp;,&lt;{#2}--&gt;shelf&gt;,&lt;{#1}--&gt;product&gt;)" />
+    <node id="aligned" />
+    <node id="(&amp;&amp;,&lt;(*,{#1},{#2})--&gt;aligned&gt;,&lt;{#1}--&gt;shelf&gt;,&lt;{#2}--&gt;[rectangle]&gt;)" />
+    <node id="&lt;{#2}--&gt;shelf&gt;" />
+    <node id="in_float" />
+    <node id="in_large" />
+    <node id="(&amp;&amp;,&lt;(*,{#1},{#2})--&gt;in_float&gt;,&lt;(*,{#1},{#2})--&gt;in_large&gt;)" />
+    <node id="(--,&lt;{#2}--&gt;shelf&gt;)" />
+    <node id="{rect1}" />
+    <node id="{rect2}" />
+    <node id="{rect3}" />
+    <node id="{rect4}" />
+    <node id="{rect5}" />
+    <node id="{rect6}" />
+    <node id="{rect7}" />
+    <node id="{rect1,rect2}" />
+    <node id="{rect8}" />
+    <node id="$1" />
+    <node id="&lt;{rect1}--&gt;$1&gt;" />
+    <node id="&lt;{rect2}--&gt;$1&gt;" />
+    <node id="[$1]" />
+    <node id="&lt;{rect1}--&gt;[$1]&gt;" />
+    <node id="&lt;{rect2}--&gt;[$1]&gt;" />
+    <node id="{rect9}" />
+    <node id="{rect1,rect3}" />
+    <node id="&lt;{rect3}--&gt;$1&gt;" />
+    <node id="&lt;{rect3}--&gt;[$1]&gt;" />
+    <node id="{rect10}" />
+    <node id="{rect11}" />
+    <node id="rect1" />
+    <node id="rect2" />
+    <node id="{rect12}" />
+    <node id="{rect13}" />
+    <node id="(*,{rect1},{rect2})" />
+    <node id="{rect1,rect2,rect3}" />
+    <node id="&lt;{rect1,rect3}--&gt;$1&gt;" />
+    <node id="&lt;{rect1,rect3}--&gt;[$1]&gt;" />
+    <node id="(*,{rect1},{rect3})" />
+    <node id="(&amp;,(*,{rect1},{rect2}),(*,{rect1},{rect3}))" />
+    <node id="(|,(*,{rect1},{rect2}),(*,{rect1},{rect3}))" />
+    <node id="(*,$1,{rect2})" />
+    <node id="(*,$1,{rect3})" />
+    <node id="&lt;(*,$1,{rect2})--&gt;aligned&gt;" />
+    <node id="&lt;(*,$1,{rect3})--&gt;aligned&gt;" />
+    <node id="(*,{$1},{rect2})" />
+    <node id="(*,{$1},{rect3})" />
+    <node id="&lt;(*,{$1},{rect2})--&gt;aligned&gt;" />
+    <node id="&lt;(*,{$1},{rect3})--&gt;aligned&gt;" />
+    <node id="&lt;(*,{rect1},{rect2})--&gt;$1&gt;" />
+    <node id="&lt;(*,{rect1},{rect3})--&gt;$1&gt;" />
+    <node id="(*,{rect1},{rect13})" />
+    <node id="(&amp;&amp;,&lt;{rect1}--&gt;shelf&gt;,&lt;{rect2}--&gt;[rectangle]&gt;)" />
+    <node id="&lt;{rect2}--&gt;shelf&gt;" />
+    <node id="(*,{rect2},{rect1})" />
+    <node id="(*,{rect2},{rect3})" />
+    <node id="(*,{rect2},{rect13})" />
+    <node id="(*,{rect3},{rect1})" />
+    <node id="(*,{rect3},{rect2})" />
+    <node id="(*,{rect3},{rect13})" />
+    <node id="(*,{rect1},[rectangle])" />
+    <node id="(*,{rect2},[rectangle])" />
+    <node id="(*,{rect5},{rect4})" />
+    <node id="{rect2,rect3}" />
+    <node id="(*,{rect6},{rect4})" />
+    <node id="{rect2,rect4}" />
+    <node id="&lt;{rect4}--&gt;$1&gt;" />
+    <node id="&lt;{rect4}--&gt;[$1]&gt;" />
+    <node id="(*,{rect6},{rect5})" />
+    <node id="(*,{rect7},{rect1})" />
+    <node id="(*,{rect7},{rect9})" />
+    <node id="(*,{rect8},{rect1})" />
+    <node id="(|,in_float,in_large)" />
+    <node id="(*,{rect9},{rect1})" />
+    <node id="(&amp;,in_float,in_large)" />
+    <node id="(*,$1,$2)" />
+    <node id="&lt;(*,$1,$2)--&gt;in_float&gt;" />
+    <node id="&lt;(*,$1,$2)--&gt;in_large&gt;" />
+    <node id="(*,$1,{$2})" />
+    <node id="&lt;(*,$1,{$2})--&gt;in_float&gt;" />
+    <node id="&lt;(*,$1,{$2})--&gt;in_large&gt;" />
+    <node id="(*,$1,{rect4})" />
+    <node id="&lt;(*,$1,{rect4})--&gt;in_float&gt;" />
+    <node id="&lt;(*,$1,{rect4})--&gt;in_large&gt;" />
+    <node id="(*,{rect9},{rect7})" />
+    <node id="(*,{$1},$2)" />
+    <node id="&lt;(*,{$1},$2)--&gt;in_float&gt;" />
+    <node id="&lt;(*,{$1},$2)--&gt;in_large&gt;" />
+    <node id="(*,{$1},{$2})" />
+    <node id="&lt;(*,{$1},{$2})--&gt;in_float&gt;" />
+    <node id="&lt;(*,{$1},{$2})--&gt;in_large&gt;" />
+    <node id="(*,{$1},{rect4})" />
+    <node id="&lt;(*,{$1},{rect4})--&gt;in_float&gt;" />
+    <node id="&lt;(*,{$1},{rect4})--&gt;in_large&gt;" />
+    <node id="(*,{rect5},$1)" />
+    <node id="&lt;(*,{rect5},$1)--&gt;in_float&gt;" />
+    <node id="&lt;(*,{rect5},$1)--&gt;in_large&gt;" />
+    <node id="(*,{rect5},{$1})" />
+    <node id="&lt;(*,{rect5},{$1})--&gt;in_float&gt;" />
+    <node id="&lt;(*,{rect5},{$1})--&gt;in_large&gt;" />
+    <node id="(*,{rect10},{rect2})" />
+    <node id="&lt;$1--&gt;in_large&gt;" />
+    <node id="&lt;$1--&gt;in_float&gt;" />
+    <node id="(*,{rect11},{rect3})" />
+    <node id="(*,{rect11},{rect12})" />
+    <node id="(*,{rect12},{rect3})" />
+    <node id="(*,[rectangle],{rect3})" />
+    <node id="(*,[rectangle],{rect12})" />
+    <node id="(*,{rect7},[rectangle])" />
+    <node id="(*,[rectangle],{rect1})" />
+    <node id="(/,aligned,{rect7},_)" />
+    <node id="(*,{rect12},{rect11})" />
+    <node id="(*,#1,#2)" />
+    <node id="(*,[rectangle],{rect4})" />
+    <node id="(*,[rectangle],{rect5})" />
+    <node id="(*,{rect6},{$1})" />
+    <node id="&lt;(*,{rect6},{$1})--&gt;in_float&gt;" />
+    <node id="&lt;(*,{rect6},{$1})--&gt;in_large&gt;" />
+    <node id="(*,{rect13},{rect1})" />
+    <node id="(*,{rect6},$1)" />
+    <node id="&lt;(*,{rect6},$1)--&gt;in_large&gt;" />
+    <node id="&lt;(*,{rect6},$1)--&gt;in_float&gt;" />
+    <node id="(*,{rect13},{rect2})" />
+    <node id="(*,{rect13},{rect3})" />
+    <node id="(&amp;,(*,{rect7},{rect1}),(*,{rect8},{rect1}))" />
+    <node id="(|,(*,{rect7},{rect1}),(*,{rect8},{rect1}))" />
+    <node id="(*,{rect7},$1)" />
+    <node id="(*,{rect8},$1)" />
+    <node id="&lt;(*,{rect7},$1)--&gt;in_aligned&gt;" />
+    <node id="&lt;(*,{rect8},$1)--&gt;in_aligned&gt;" />
+    <node id="(*,{rect7},{$1})" />
+    <node id="(*,{rect8},{$1})" />
+    <node id="&lt;(*,{rect7},{$1})--&gt;in_aligned&gt;" />
+    <node id="&lt;(*,{rect8},{$1})--&gt;in_aligned&gt;" />
+    <node id="&lt;(*,{rect7},{rect1})--&gt;$1&gt;" />
+    <node id="&lt;(*,{rect8},{rect1})--&gt;$1&gt;" />
+    <node id="&lt;{rect1}--&gt;[rectangle]&gt;" />
+    <node id="(&amp;&amp;,&lt;{rect1}--&gt;shelf&gt;,&lt;{rect7}--&gt;product&gt;)" />
+    <node id="(&amp;,(*,{rect7},{rect1}),(*,{rect9},{rect1}))" />
+    <node id="(|,(*,{rect7},{rect1}),(*,{rect9},{rect1}))" />
+    <node id="(*,{rect9},$1)" />
+    <node id="&lt;(*,{rect9},$1)--&gt;in_aligned&gt;" />
+    <node id="(*,{rect9},{$1})" />
+    <node id="&lt;(*,{rect9},{$1})--&gt;in_aligned&gt;" />
+    <node id="&lt;(*,{rect9},{rect1})--&gt;$1&gt;" />
+    <node id="[#1]" />
+    <node id="(*,{rect3},[rectangle])" />
+    <node id="(|,(*,{rect1},[rectangle]),aligned)" />
+    <node id="(&amp;,(*,{rect1},[rectangle]),aligned)" />
+    <node id="(*,$2,[rectangle])" />
+    <node id="&lt;$1--&gt;(*,$2,[rectangle])&gt;" />
+    <node id="&lt;$1--&gt;aligned&gt;" />
+    <node id="(*,$1,[rectangle])" />
+    <node id="&lt;(*,$1,$2)--&gt;(*,$1,[rectangle])&gt;" />
+    <node id="&lt;(*,$1,$2)--&gt;aligned&gt;" />
+    <node id="&lt;(*,$1,{$2})--&gt;(*,$1,[rectangle])&gt;" />
+    <node id="&lt;(*,$1,{$2})--&gt;aligned&gt;" />
+    <node id="(*,$1,{rect13})" />
+    <node id="&lt;(*,$1,{rect13})--&gt;(*,$1,[rectangle])&gt;" />
+    <node id="&lt;(*,$1,{rect13})--&gt;aligned&gt;" />
+    <node id="&lt;$1--&gt;(*,{rect1},[rectangle])&gt;" />
+    <node id="(*,{rect1},$1)" />
+    <node id="&lt;(*,{rect1},$1)--&gt;(*,{rect1},[rectangle])&gt;" />
+    <node id="&lt;(*,{rect1},$1)--&gt;aligned&gt;" />
+    <node id="(*,{rect1},{$1})" />
+    <node id="&lt;(*,{rect1},{$1})--&gt;(*,{rect1},[rectangle])&gt;" />
+    <node id="&lt;(*,{rect1},{$1})--&gt;aligned&gt;" />
+    <node id="(*,{$1},{rect13})" />
+    <node id="(*,{$1},[rectangle])" />
+    <node id="&lt;(*,{$1},{rect13})--&gt;(*,{$1},[rectangle])&gt;" />
+    <node id="&lt;(*,{$1},{rect13})--&gt;aligned&gt;" />
+    <edge source="(*,{#1},{#2})" target="in_aligned" />
+    <edge source="(*,{#1},{#2})" target="aligned" />
+    <edge source="(*,{#1},{#2})" target="in_float" />
+    <edge source="(*,{#1},{#2})" target="in_large" />
+    <edge source="in_aligned" target="(*,{rect7},{rect1})" />
+    <edge source="in_aligned" target="(*,{rect8},{rect1})" />
+    <edge source="in_aligned" target="(*,{rect9},{rect1})" />
+    <edge source="in_aligned" target="(*,{rect10},{rect2})" />
+    <edge source="in_aligned" target="(*,{rect12},{rect3})" />
+    <edge source="in_aligned" target="(&amp;,(*,{rect7},{rect1}),(*,{rect8},{rect1}))" />
+    <edge source="in_aligned" target="(|,(*,{rect7},{rect1}),(*,{rect8},{rect1}))" />
+    <edge source="in_aligned" target="(*,{rect7},$1)" />
+    <edge source="in_aligned" target="(*,{rect8},$1)" />
+    <edge source="in_aligned" target="(*,{rect7},{$1})" />
+    <edge source="in_aligned" target="(*,{rect8},{$1})" />
+    <edge source="in_aligned" target="(&amp;,(*,{rect7},{rect1}),(*,{rect9},{rect1}))" />
+    <edge source="in_aligned" target="(|,(*,{rect7},{rect1}),(*,{rect9},{rect1}))" />
+    <edge source="in_aligned" target="(*,{rect9},$1)" />
+    <edge source="in_aligned" target="(*,{rect9},{$1})" />
+    <edge source="{#2}" target="[rectangle]" />
+    <edge source="{#2}" target="shelf" />
+    <edge source="[rectangle]" target="{rect1}" />
+    <edge source="[rectangle]" target="{rect2}" />
+    <edge source="[rectangle]" target="{rect3}" />
+    <edge source="[rectangle]" target="{rect4}" />
+    <edge source="[rectangle]" target="{rect5}" />
+    <edge source="[rectangle]" target="{rect6}" />
+    <edge source="[rectangle]" target="{rect7}" />
+    <edge source="[rectangle]" target="{rect1,rect2}" />
+    <edge source="[rectangle]" target="{rect8}" />
+    <edge source="[rectangle]" target="{rect9}" />
+    <edge source="[rectangle]" target="{rect1,rect3}" />
+    <edge source="[rectangle]" target="{rect10}" />
+    <edge source="[rectangle]" target="{rect11}" />
+    <edge source="[rectangle]" target="{rect12}" />
+    <edge source="[rectangle]" target="{rect13}" />
+    <edge source="[rectangle]" target="{rect1,rect2,rect3}" />
+    <edge source="[rectangle]" target="{rect2,rect3}" />
+    <edge source="[rectangle]" target="{rect2,rect4}" />
+    <edge source="shelf" target="{#1}" />
+    <edge source="shelf" target="{rect1}" />
+    <edge source="shelf" target="{rect2}" />
+    <edge source="{#1}" target="product" />
+    <edge source="product" target="{rect7}" />
+    <edge source="(&amp;&amp;,&lt;(*,{#1},{#2})--&gt;in_aligned&gt;,&lt;{#2}--&gt;[rectangle]&gt;)" target="(&amp;&amp;,&lt;{#2}--&gt;shelf&gt;,&lt;{#1}--&gt;product&gt;)" />
+    <edge source="aligned" target="(*,{rect1},{rect2})" />
+    <edge source="aligned" target="(*,{rect1},{rect3})" />
+    <edge source="aligned" target="(&amp;,(*,{rect1},{rect2}),(*,{rect1},{rect3}))" />
+    <edge source="aligned" target="(|,(*,{rect1},{rect2}),(*,{rect1},{rect3}))" />
+    <edge source="aligned" target="(*,$1,{rect2})" />
+    <edge source="aligned" target="(*,$1,{rect3})" />
+    <edge source="aligned" target="(*,{$1},{rect2})" />
+    <edge source="aligned" target="(*,{$1},{rect3})" />
+    <edge source="aligned" target="(*,{rect1},{rect13})" />
+    <edge source="aligned" target="(*,{rect2},{rect1})" />
+    <edge source="aligned" target="(*,{rect2},{rect3})" />
+    <edge source="aligned" target="(*,{rect2},{rect13})" />
+    <edge source="aligned" target="(*,{rect3},{rect1})" />
+    <edge source="aligned" target="(*,{rect3},{rect2})" />
+    <edge source="aligned" target="(*,{rect3},{rect13})" />
+    <edge source="aligned" target="(*,{rect7},{rect9})" />
+    <edge source="aligned" target="(*,{rect9},{rect7})" />
+    <edge source="aligned" target="(*,{rect11},{rect12})" />
+    <edge source="aligned" target="(*,{rect12},{rect11})" />
+    <edge source="aligned" target="(*,{rect13},{rect1})" />
+    <edge source="aligned" target="(*,{rect13},{rect2})" />
+    <edge source="aligned" target="(*,{rect13},{rect3})" />
+    <edge source="aligned" target="(*,{rect1},[rectangle])" />
+    <edge source="aligned" target="$1" />
+    <edge source="aligned" target="(*,$1,$2)" />
+    <edge source="aligned" target="(*,$1,{$2})" />
+    <edge source="aligned" target="(*,$1,{rect13})" />
+    <edge source="aligned" target="(*,{rect1},$1)" />
+    <edge source="aligned" target="(*,{rect1},{$1})" />
+    <edge source="aligned" target="(*,{$1},{rect13})" />
+    <edge source="(&amp;&amp;,&lt;(*,{#1},{#2})--&gt;aligned&gt;,&lt;{#1}--&gt;shelf&gt;,&lt;{#2}--&gt;[rectangle]&gt;)" target="&lt;{#2}--&gt;shelf&gt;" />
+    <edge source="in_float" target="(*,{rect5},{rect4})" />
+    <edge source="in_float" target="(*,{rect6},{rect4})" />
+    <edge source="in_float" target="(*,{rect6},{rect5})" />
+    <edge source="in_float" target="in_large" />
+    <edge source="in_float" target="(*,$1,$2)" />
+    <edge source="in_float" target="(*,$1,{$2})" />
+    <edge source="in_float" target="(*,$1,{rect4})" />
+    <edge source="in_float" target="(*,{$1},$2)" />
+    <edge source="in_float" target="(*,{$1},{$2})" />
+    <edge source="in_float" target="(*,{$1},{rect4})" />
+    <edge source="in_float" target="(*,{rect5},$1)" />
+    <edge source="in_float" target="(*,{rect5},{$1})" />
+    <edge source="in_float" target="$1" />
+    <edge source="in_float" target="(*,{rect11},{rect3})" />
+    <edge source="in_float" target="(*,#1,#2)" />
+    <edge source="in_float" target="(*,{rect6},{$1})" />
+    <edge source="in_float" target="(*,{rect6},$1)" />
+    <edge source="in_large" target="(*,{rect5},{rect4})" />
+    <edge source="in_large" target="(*,{rect6},{rect4})" />
+    <edge source="in_large" target="(*,{rect6},{rect5})" />
+    <edge source="in_large" target="(*,$1,$2)" />
+    <edge source="in_large" target="(*,$1,{$2})" />
+    <edge source="in_large" target="(*,$1,{rect4})" />
+    <edge source="in_large" target="(*,{$1},$2)" />
+    <edge source="in_large" target="(*,{$1},{$2})" />
+    <edge source="in_large" target="(*,{$1},{rect4})" />
+    <edge source="in_large" target="(*,{rect5},$1)" />
+    <edge source="in_large" target="(*,{rect5},{$1})" />
+    <edge source="in_large" target="$1" />
+    <edge source="in_large" target="(*,#1,#2)" />
+    <edge source="in_large" target="(*,{rect6},{$1})" />
+    <edge source="in_large" target="(*,{rect6},$1)" />
+    <edge source="(&amp;&amp;,&lt;(*,{#1},{#2})--&gt;in_float&gt;,&lt;(*,{#1},{#2})--&gt;in_large&gt;)" target="(--,&lt;{#2}--&gt;shelf&gt;)" />
+    <edge source="{rect1}" target="{rect2}" />
+    <edge source="{rect1}" target="$1" />
+    <edge source="{rect1}" target="[$1]" />
+    <edge source="{rect1}" target="{rect3}" />
+    <edge source="{rect1}" target="[#1]" />
+    <edge source="{rect2}" target="$1" />
+    <edge source="{rect2}" target="[$1]" />
+    <edge source="{rect2}" target="{rect1,rect3}" />
+    <edge source="{rect2}" target="{rect3}" />
+    <edge source="{rect2}" target="{rect4}" />
+    <edge source="{rect2}" target="[#1]" />
+    <edge source="{rect3}" target="$1" />
+    <edge source="{rect3}" target="[$1]" />
+    <edge source="{rect4}" target="$1" />
+    <edge source="{rect4}" target="[$1]" />
+    <edge source="$1" target="{rect1,rect3}" />
+    <edge source="$1" target="(*,{rect1},{rect2})" />
+    <edge source="$1" target="(*,{rect1},{rect3})" />
+    <edge source="$1" target="(*,{rect7},{rect1})" />
+    <edge source="$1" target="(*,{rect8},{rect1})" />
+    <edge source="$1" target="(*,{rect9},{rect1})" />
+    <edge source="$1" target="(*,$2,[rectangle])" />
+    <edge source="$1" target="(*,{rect1},[rectangle])" />
+    <edge source="&lt;{rect1}--&gt;$1&gt;" target="&lt;{rect2}--&gt;$1&gt;" />
+    <edge source="&lt;{rect1}--&gt;$1&gt;" target="&lt;{rect3}--&gt;$1&gt;" />
+    <edge source="&lt;{rect2}--&gt;$1&gt;" target="&lt;{rect1,rect3}--&gt;$1&gt;" />
+    <edge source="&lt;{rect2}--&gt;$1&gt;" target="&lt;{rect3}--&gt;$1&gt;" />
+    <edge source="&lt;{rect2}--&gt;$1&gt;" target="&lt;{rect4}--&gt;$1&gt;" />
+    <edge source="[$1]" target="{rect1,rect3}" />
+    <edge source="&lt;{rect1}--&gt;[$1]&gt;" target="&lt;{rect2}--&gt;[$1]&gt;" />
+    <edge source="&lt;{rect1}--&gt;[$1]&gt;" target="&lt;{rect3}--&gt;[$1]&gt;" />
+    <edge source="&lt;{rect2}--&gt;[$1]&gt;" target="&lt;{rect1,rect3}--&gt;[$1]&gt;" />
+    <edge source="&lt;{rect2}--&gt;[$1]&gt;" target="&lt;{rect3}--&gt;[$1]&gt;" />
+    <edge source="&lt;{rect2}--&gt;[$1]&gt;" target="&lt;{rect4}--&gt;[$1]&gt;" />
+    <edge source="{rect9}" target="(/,aligned,{rect7},_)" />
+    <edge source="rect1" target="rect2" />
+    <edge source="(*,{rect1},{rect2})" target="(*,{rect1},{rect3})" />
+    <edge source="&lt;(*,$1,{rect2})--&gt;aligned&gt;" target="&lt;(*,$1,{rect3})--&gt;aligned&gt;" />
+    <edge source="&lt;(*,{$1},{rect2})--&gt;aligned&gt;" target="&lt;(*,{$1},{rect3})--&gt;aligned&gt;" />
+    <edge source="&lt;(*,{rect1},{rect2})--&gt;$1&gt;" target="&lt;(*,{rect1},{rect3})--&gt;$1&gt;" />
+    <edge source="(*,{rect1},{rect13})" target="(*,{rect1},[rectangle])" />
+    <edge source="(*,{rect1},{rect13})" target="(|,(*,{rect1},[rectangle]),aligned)" />
+    <edge source="(*,{rect1},{rect13})" target="(&amp;,(*,{rect1},[rectangle]),aligned)" />
+    <edge source="(&amp;&amp;,&lt;{rect1}--&gt;shelf&gt;,&lt;{rect2}--&gt;[rectangle]&gt;)" target="&lt;{rect2}--&gt;shelf&gt;" />
+    <edge source="(*,{rect2},{rect13})" target="(*,{rect2},[rectangle])" />
+    <edge source="(*,{rect3},{rect13})" target="(*,{rect3},[rectangle])" />
+    <edge source="(*,{rect1},[rectangle])" target="(*,{rect1},$1)" />
+    <edge source="(*,{rect1},[rectangle])" target="(*,{rect1},{$1})" />
+    <edge source="(*,{rect5},{rect4})" target="(|,in_float,in_large)" />
+    <edge source="(*,{rect5},{rect4})" target="(&amp;,in_float,in_large)" />
+    <edge source="(*,{rect6},{rect4})" target="(*,[rectangle],{rect4})" />
+    <edge source="(*,{rect6},{rect4})" target="(|,in_float,in_large)" />
+    <edge source="(*,{rect6},{rect4})" target="(&amp;,in_float,in_large)" />
+    <edge source="(*,{rect6},{rect5})" target="(*,[rectangle],{rect5})" />
+    <edge source="(*,{rect7},{rect1})" target="(*,{rect8},{rect1})" />
+    <edge source="(*,{rect7},{rect1})" target="(*,{rect9},{rect1})" />
+    <edge source="(*,{rect7},{rect9})" target="(*,{rect7},[rectangle])" />
+    <edge source="(*,{rect8},{rect1})" target="(*,[rectangle],{rect1})" />
+    <edge source="(*,{rect9},{rect1})" target="(*,[rectangle],{rect1})" />
+    <edge source="(*,$1,$2)" target="(*,$1,[rectangle])" />
+    <edge source="&lt;(*,$1,$2)--&gt;in_float&gt;" target="&lt;(*,$1,$2)--&gt;in_large&gt;" />
+    <edge source="(*,$1,{$2})" target="(*,$1,[rectangle])" />
+    <edge source="&lt;(*,$1,{$2})--&gt;in_float&gt;" target="&lt;(*,$1,{$2})--&gt;in_large&gt;" />
+    <edge source="&lt;(*,$1,{rect4})--&gt;in_float&gt;" target="&lt;(*,$1,{rect4})--&gt;in_large&gt;" />
+    <edge source="&lt;(*,{$1},$2)--&gt;in_float&gt;" target="&lt;(*,{$1},$2)--&gt;in_large&gt;" />
+    <edge source="&lt;(*,{$1},{$2})--&gt;in_float&gt;" target="&lt;(*,{$1},{$2})--&gt;in_large&gt;" />
+    <edge source="&lt;(*,{$1},{rect4})--&gt;in_float&gt;" target="&lt;(*,{$1},{rect4})--&gt;in_large&gt;" />
+    <edge source="&lt;(*,{rect5},$1)--&gt;in_float&gt;" target="&lt;(*,{rect5},$1)--&gt;in_large&gt;" />
+    <edge source="&lt;(*,{rect5},{$1})--&gt;in_float&gt;" target="&lt;(*,{rect5},{$1})--&gt;in_large&gt;" />
+    <edge source="&lt;$1--&gt;in_large&gt;" target="&lt;$1--&gt;in_float&gt;" />
+    <edge source="(*,{rect11},{rect3})" target="(*,[rectangle],{rect3})" />
+    <edge source="(*,{rect11},{rect12})" target="(*,[rectangle],{rect12})" />
+    <edge source="&lt;(*,{rect6},{$1})--&gt;in_float&gt;" target="&lt;(*,{rect6},{$1})--&gt;in_large&gt;" />
+    <edge source="&lt;(*,{rect6},$1)--&gt;in_large&gt;" target="&lt;(*,{rect6},$1)--&gt;in_float&gt;" />
+    <edge source="&lt;(*,{rect7},$1)--&gt;in_aligned&gt;" target="&lt;(*,{rect8},$1)--&gt;in_aligned&gt;" />
+    <edge source="&lt;(*,{rect7},$1)--&gt;in_aligned&gt;" target="&lt;(*,{rect9},$1)--&gt;in_aligned&gt;" />
+    <edge source="&lt;(*,{rect7},{$1})--&gt;in_aligned&gt;" target="&lt;(*,{rect8},{$1})--&gt;in_aligned&gt;" />
+    <edge source="&lt;(*,{rect7},{$1})--&gt;in_aligned&gt;" target="&lt;(*,{rect9},{$1})--&gt;in_aligned&gt;" />
+    <edge source="&lt;(*,{rect7},{rect1})--&gt;$1&gt;" target="&lt;(*,{rect8},{rect1})--&gt;$1&gt;" />
+    <edge source="&lt;(*,{rect7},{rect1})--&gt;$1&gt;" target="&lt;(*,{rect9},{rect1})--&gt;$1&gt;" />
+    <edge source="&lt;{rect1}--&gt;[rectangle]&gt;" target="(&amp;&amp;,&lt;{rect1}--&gt;shelf&gt;,&lt;{rect7}--&gt;product&gt;)" />
+    <edge source="&lt;$1--&gt;(*,$2,[rectangle])&gt;" target="&lt;$1--&gt;aligned&gt;" />
+    <edge source="&lt;$1--&gt;aligned&gt;" target="&lt;$1--&gt;(*,{rect1},[rectangle])&gt;" />
+    <edge source="(*,$1,[rectangle])" target="(*,$1,{rect13})" />
+    <edge source="&lt;(*,$1,$2)--&gt;(*,$1,[rectangle])&gt;" target="&lt;(*,$1,$2)--&gt;aligned&gt;" />
+    <edge source="&lt;(*,$1,{$2})--&gt;(*,$1,[rectangle])&gt;" target="&lt;(*,$1,{$2})--&gt;aligned&gt;" />
+    <edge source="&lt;(*,$1,{rect13})--&gt;(*,$1,[rectangle])&gt;" target="&lt;(*,$1,{rect13})--&gt;aligned&gt;" />
+    <edge source="&lt;(*,{rect1},$1)--&gt;(*,{rect1},[rectangle])&gt;" target="&lt;(*,{rect1},$1)--&gt;aligned&gt;" />
+    <edge source="&lt;(*,{rect1},{$1})--&gt;(*,{rect1},[rectangle])&gt;" target="&lt;(*,{rect1},{$1})--&gt;aligned&gt;" />
+    <edge source="(*,{$1},{rect13})" target="(*,{$1},[rectangle])" />
+    <edge source="&lt;(*,{$1},{rect13})--&gt;(*,{$1},[rectangle])&gt;" target="&lt;(*,{$1},{rect13})--&gt;aligned&gt;" />
+  </graph>
+</graphml>
