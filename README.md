@@ -14,13 +14,10 @@ perl test.pl t1 test1.txt
 ```
 Look for "myTestGraph.graphml" in the folder. 
 
-For easy visualization tool, we recommend using Cytospace. 
-For installation and documentation see here.
-https://cytoscape.org/
+For easy visualization tool, we recommend using Cytoscape. 
+For installation and documentation see here. https://cytoscape.org/
 
-## Mac
-
-Known issues for on Mac:
+### Known issues on Mac
 
 1. Folder permission denied.
 ```
