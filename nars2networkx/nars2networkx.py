@@ -133,7 +133,7 @@ def main(argv):
     parser = NarseseParser(stream)
     parser._interp.predictionMode = PredictionMode.SLL
     tree = parser.narsese()
-    g = nx.Graph()
+    g = nx.DiGraph()
     printer = nars2networkx(g)
     walker = ParseTreeWalker()
     walker.walk(printer,tree)
