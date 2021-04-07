@@ -31,3 +31,13 @@ pip3 install install antlr4-python3-runtime==4.7.2
 vi /MAGIOpenSource/nars2networks/nars2networks.py
 ```
 In Vim edit the first line from ```/usr/bin/python3``` to ```<path>/bin/python3```
+
+## Neo4j to Nars
+1. Neo4j instance should be running on localhost:7687
+2. Install the py2neo package
+<pre>
+pip install py2neo
+</pre>
+3. Run the main.py file
+<pre>python3 main.py</pre>
+4. NARS string will be printed
