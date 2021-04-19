@@ -40,7 +40,7 @@ $command = shift;
 if($command eq 't1')
 {
 	$filename = shift;
-	$cmd = "time ./nars2networkx.py data/$filename";
+	$cmd = "time python3 nars2networkx.py data/$filename";
 	execute($cmd);
 	$lines = `cat data/$filename |wc -l`;
 	print "total number of input lines: $lines\n";
